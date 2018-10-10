@@ -1,6 +1,7 @@
 {
-  "name": "user-portal",
-  "version": "0.0.0",
+  "name": "users-portal",
+  "author": "Kay Wood",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
