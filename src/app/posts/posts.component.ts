@@ -8,6 +8,7 @@ import { DataService } from '../data.service';
   templateUrl: './posts.component.html',
   styleUrls: ['./posts.component.scss']
 })
+
 export class PostsComponent implements OnInit {
 
   posts$: object;
