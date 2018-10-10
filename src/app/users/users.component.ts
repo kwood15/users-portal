@@ -10,7 +10,7 @@ import { DataService } from '../data.service';
 
 export class UsersComponent implements OnInit {
 
-  users$: Object;
+  users$: object;
 
   constructor(private data: DataService) {
 

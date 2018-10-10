@@ -12,7 +12,7 @@ import { DataService } from '../data.service';
 
 export class DetailsComponent implements OnInit {
 
-  user$: Object;
+  user$: object;
 
   constructor(private data: DataService, private route: ActivatedRoute) {
     this.route.params.subscribe(params => this.user$ = params.id);
